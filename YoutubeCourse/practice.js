@@ -103,20 +103,62 @@
 //         console.log(`Today is ${day}`);
 // }
 
-var numb = 11;
+// var numb = 11;
 // while (num <= 10) {
 //     console.log(num);
 //     num++;
 // }
 
-do {
-    console.log(numb);
-    numb++;
-}
-while (numb <= 10)
+// do {
+//     console.log(numb);
+//     numb++;
+// }
+// while (numb <= 10)
 
 
-let table = 8;
-for (let i = 1; i <= 10; i++) {
-    console.log(`${table}*${i} = ${table*i}`)
-}
+// let tableof = 8;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${table}*${i} = ${table*i}`)
+// }
+
+//Function expression:
+
+// function sum(a, b) {
+//     return total = (a + b);
+// }
+
+// var funcExpr = sum(30, 40);
+
+// console.log('FuncExp', funcExpr)
+
+
+//Anonymous function:
+
+// var anonymFun = function (a, b) {
+//     return (a + b);
+// }
+// console.log('Anonymous Function example: ', anonymFun(30, 70))
+
+//Default parameter:
+
+// function multiply(a, b = 5) {
+//     return a * b;
+// }
+
+// console.log(multiply(6));
+
+//Fat arrow function:
+
+// const sum = () => {
+//     let a = 5,
+//         b = 6
+//     let total = a + b;
+//     return total;
+// }
+
+// console.log(sum())
+// const mult = () => `Multiplication of number is ${(a=6)*(b=3)}`
+
+const mult = (a, b) => `${a*b}`
+
+console.log(mult(3, 9))
